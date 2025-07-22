@@ -7,9 +7,9 @@ This project demonstrates how to host a basic web page from an EC2 instance in a
 
 ##  Resources Created
 
-- Custom VPC (CIDR: 10.0.0.0/24)
-- Public Subnet (10.0.0.0/25)
-- Private Subnet (10.0.0.128/25)
+- Custom VPC (CIDR: 10.0.0.0/25)
+- Public Subnet (10.0.0.0/26)
+- Private Subnet (10.0.0.64/26)
 - Internet Gateway (IGW)
 - NAT Gateway with Elastic IP
 - Route Table for private subnet

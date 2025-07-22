@@ -40,12 +40,6 @@ This project demonstrates how to host a basic web page from an EC2 instance in a
 - Subnet: Private Subnet
 - No Public IP
 - Add SSM Role (AmazonSSMManagedInstanceCore)
-- Add user data:
+- Add user Data - 
 
-bash
-#!/bin/bash
-sudo yum update -y
-sudo yum install -y httpd
-echo "Hello from Practice-Web, this is private subnet!" > /var/www/html/index.html
-sudo systemctl start httpd
-sudo systemctl enable httpd
+

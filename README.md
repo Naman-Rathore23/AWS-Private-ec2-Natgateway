@@ -40,6 +40,6 @@ This project demonstrates how to host a basic web page from an EC2 instance in a
 - Subnet: Private Subnet
 - No Public IP
 - Add SSM Role (AmazonSSMManagedInstanceCore)
-- Add user Data - 
+- Add user Data - User.txt/
 
 

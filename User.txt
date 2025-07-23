@@ -1,6 +1,6 @@
 #!/bin/bash
 sudo yum update -y
 sudo yum install -y httpd
-echo "Hello from Pracctice-web, this is  private subnet!" > /var/www/html/index.html
+echo "Hello from Practice-web, this is  private subnet!" > /var/www/html/index.html
 sudo systemctl start httpd
 sudo systemctl enable httpd
